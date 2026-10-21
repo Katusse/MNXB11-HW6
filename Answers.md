@@ -30,17 +30,6 @@ Done. The default constructor initializes the velocity components to zero, while
 
 ## 5. Report both speeds for each example. Explain why changing $v_z$ changes the total speed but leaves the horizontal speed unchanged. Check that $0 \leq v_{xy} \leq v$.
 
-The total speed is calculated as
-
-$$
-v = \sqrt{v_x^2 + v_y^2 + v_z^2},
-$$
-
-while the horizontal speed is
-
-$$
-v_{xy} = \sqrt{v_x^2 + v_y^2}.
-$$
 
 For Example A, with $v_x = 0.30\,\mathrm{m/s}$, $v_y = 0.40\,\mathrm{m/s}$, and $v_z = 0.00\,\mathrm{m/s}$, the results are
 
