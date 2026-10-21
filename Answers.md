@@ -155,6 +155,7 @@ The tree was also printed, confirming 10,000 entries and the stored velocity com
 ## Outputs
 
 4. Proof
+```cpp
 root [5] MovingObject obj;
 root [6] obj.Vx()
 (double) 0.0000000
@@ -170,10 +171,7 @@ root [11] obj2.Vy()
 (double) 0.40000000
 root [12] obj2.Vz()
 (double) 0.0000000
-root [13] obj2.Speed()
-(double) 0.0000000
-root [14] obj2.HorizontalSpeed()
-(double) 0.0000000
+//Here I did some mistakes
 root [15] obj2.SetVelocity(1.0,2.0,3.0);
 root [16] obj2.Vx()
 (double) 1.0000000
@@ -181,9 +179,11 @@ root [17] obj2.Vy()
 (double) 2.0000000
 root [18] obj2.Vz()
 (double) 3.0000000
+```
 
-
-6. checkTree->GetEntries()
+6.
+```cpp
+checkTree->GetEntries()
 (long long) 10000
 root [8] checkTree->Print()
 ******************************************************************************
@@ -234,3 +234,4 @@ Info in <TCanvas::Print>: file selected_measurements.png has been created
 *Br    4 :fVz       : Double_t                                               *
 *Entries :    10000 : Total  Size=      80703 bytes  File Size  =      72688 *
 *Baskets :        3 : Basket Size=      32000 bytes  Compression=   1.10     *
+``
